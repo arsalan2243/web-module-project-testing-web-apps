@@ -125,9 +125,7 @@ module.exports = {
   // runner: "jest-runner",
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
-  "setupFiles": [
-    "./jest.setup.js"
-  ],
+  setupFiles: ["./jest.setup.js"],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   // setupFilesAfterEnv: [],
@@ -188,10 +186,9 @@ module.exports = {
   // Indicates whether each individual test should be reported during the run
   // verbose: false,
 
-
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],
 
   // Whether to use watchman for file crawling
   // watchman: true,
-};
+}
